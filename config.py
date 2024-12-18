@@ -33,7 +33,7 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv(""7882173382:AAFWoXP7wolKH_qeYE7YlHKkQr_w5oDvfYU")
+BOT_TOKEN = getenv("7882173382:AAFWoXP7wolKH_qeYE7YlHKkQr_w5oDvfYU")
 BOT_NAME = getenv("BOT_NAME", "Umk")
 
 API_ID = int(getenv("25638120"))
