@@ -33,17 +33,17 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7882173382:AAFWoXP7wolKH_qeYE7YlHKkQr_w5oDvfYU")
+BOT_TOKEN = getenv(""7882173382:AAFWoXP7wolKH_qeYE7YlHKkQr_w5oDvfYU")
 BOT_NAME = getenv("BOT_NAME", "Umk")
 
-API_ID = int(getenv("API_ID", "25638120"))
-API_HASH = getenv("API_HASH", "3b702ecd94ca01b76c1b78451a33833c")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://tigerbundle282:tTaRXh353IOL9mj2@testcookies.2elxf.mongodb.net/?retryWrites=true&w=majority&appName=Testcookies")
+API_ID = int(getenv("25638120"))
+API_HASH = getenv("3b702ecd94ca01b76c1b78451a33833c")
+MONGO_DB_URL = getenv("mongodb+srv://tigerbundle282:tTaRXh353IOL9mj2@testcookies.2elxf.mongodb.net/?retryWrites=true&w=majority&appName=Testcookies")
 OWNER_NAME = getenv("OWNER_NAME", "Zaid")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Timesisnotwaiting")
 ALIVE_NAME = getenv("ALIVE_NAME", "Zaid")
 BOT_USERNAME = getenv("BOT_USERNAME", "Zaid2_Robot")
-OWNER_ID = getenv("OWNER_ID", "5050578106")
+OWNER_ID = getenv("5050578106")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "boybitmusic")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "TheSupportChat")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "TheUpdatesChannel")
