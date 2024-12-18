@@ -11,7 +11,7 @@ if os.path.exists("local.env"):
 load_dotenv()
 admins = {}
 
-SESSION_NAME = getenv("SESSION_NAME")
+SESSION_NAME = getenv("BQGHNOgAnGDiBi_g9YBPyMfT7YhqDX4uLR7RwKWaRVA3L8Y_pvDLb0B-BRxullTFhzXQddSHYHUkeXHstpOj6t5Zq1ZSNYMfYWngHsYzB7tGkicjG4oFH5rLYEUDCKZidf5RMC72tvKPac1Zhyp7g3hPJsvuW9kvCWH0bVXmvdbQjW98H7NPEzbCrXd6PdTpo-WzuAcj3zc3rOHbwqqJwlEXvOC6WpdC4ZEjnTo9l3LQUaFBI5fp3Iy5JIg4_sW0zg39RV5UfwEZFJbv1jZ300ND1ZepB-StzGqDuxTgqrLzKR92OLmk5XQhOfaS71xATIYSz_1-tMqkPxSMq0Z9FXmvj_kVRgAAAAGo5finAA")
 
 if str(getenv("STRING_SESSION2")).strip() == "":
     SESSION2 = str(None)
@@ -44,7 +44,7 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "Timesisnotwaiting")
 ALIVE_NAME = getenv("ALIVE_NAME", "Zaid")
 BOT_USERNAME = getenv("BOT_USERNAME", "Zaid2_Robot")
 OWNER_ID = getenv("OWNER_ID", "5050578106")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Zaid2_Assistant")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "boybitmusic")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "TheSupportChat")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "TheUpdatesChannel")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
